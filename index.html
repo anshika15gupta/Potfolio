@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anshika Gupta | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="header">
+        <a class="brand" href="#home">
+          <div class="logo">AG</div>
+          <div>
+            <p class="eyebrow">Innovation & Code</p>
+            <h1>Anshika Gupta</h1>
+          </div>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="btn btn-ghost" id="themeToggle" aria-label="Toggle theme">🌙</button>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-copy">
+            <p class="eyebrow">Welcome to my digital space</p>
+            <h2>Building the future of the web, one pixel at a time.</h2>
+            <p class="hero-text">
+              I'm Anshika Gupta, a 1st-year student and frontend developer. I love creating beautiful, interactive, and intelligent digital experiences that push the boundaries of modern design.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">Explore Work</a>
+              <a class="btn btn-secondary" href="#contact">Get In Touch</a>
+            </div>
+            <div class="hero-meta">
+              <div>
+                <span>4+</span>
+                <p>Innovative Projects</p>
+              </div>
+              <div>
+                <span>4+</span>
+                <p>Expert Certifications</p>
+              </div>
+              <div>
+                <span>1st Yr</span>
+                <p>B.Tech CSE (Data Science)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="glass-card tilt-card" id="hero-card">
+              <img src="portfolio_hero_bg_1778171506936.png" alt="Hero Illustration" class="hero-image">
+              <div class="glass-card__content">
+                <div class="glass-card__header">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="code-preview">
+                  <pre><code>const profile = {
+  name: "Anshika Gupta",
+  role: "Frontend Developer",
+  focus: ["React", "AI", "UI/UX"]
+};</code></pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section split" id="about">
+          <div>
+            <p class="eyebrow">My Journey</p>
+            <h3>Strategic thinking meets creative engineering.</h3>
+            <p>
+              As a computer science student, I bridge the gap between complex logic and stunning visual interfaces. I thrive on challenges and constant learning.
+            </p>
+            <ul class="about-list">
+              <li>✨ Passionate about React & Frontend Architecture</li>
+              <li>🤖 Integrating AI into modern web applications</li>
+              <li>📐 Designing intuitive and accessible user flows</li>
+              <li>🚀 Committed to writing clean, scalable code</li>
+            </ul>
+          </div>
+
+          <div class="stats-grid">
+            <div class="feature-card tilt-card">
+              <h4>Short Intro</h4>
+              <p>
+                Hello! I am Anshika Gupta. I'm currently in my first year of B.Tech CSE (Data Science) associated with Google. I am a frontend developer who loves to play with colors and code to build something amazing. My goal is to become a top-tier Software Engineer.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="projects">
+          <p class="eyebrow">Portfolio</p>
+          <h3>Featured Projects</h3>
+          <div class="project-grid">
+            <article class="project-card tilt-card">
+              <div class="project-img-wrapper">
+                <img src="aura_ai_bot_thumb_1778171962427.png" alt="Aura AI Bot">
+              </div>
+              <div class="project-badge">React + Gemini API</div>
+              <h4>Aura AI Bot</h4>
+              <p>
+                An advanced AI-powered chatbot with streaming responses, multi-modal support, and a premium glassmorphism UI.
+              </p>
+              <a href="https://github.com/anshika15gupta/Aura-AI-Bot" target="_blank" class="project-link">Explore Code →</a>
+            </article>
+
+            <article class="project-card tilt-card">
+              <div class="project-img-wrapper">
+                <img src="vehicle_speed_estimator_thumb_1778171736981.png" alt="Vehicle Speed Estimator">
+              </div>
+              <div class="project-badge">Python + Computer Vision</div>
+              <h4>Vehicle Speed Estimator</h4>
+              <p>
+                A smart system that calculates the speed of moving vehicles from video feeds using OpenCV and deep learning.
+              </p>
+              <a href="https://github.com/anshika15gupta/Vehicle_Speed_Estimator" target="_blank" class="project-link">Explore Code →</a>
+            </article>
+
+            <article class="project-card tilt-card">
+              <div class="project-img-wrapper">
+                <img src="library_management_thumb_1778171765824.png" alt="Library Management System">
+              </div>
+              <div class="project-badge">Java/Python + SQL</div>
+              <h4>Library Management System</h4>
+              <p>
+                A comprehensive tool for managing book inventories, member records, and borrowing history with a clean interface.
+              </p>
+              <a href="https://github.com/anshika15gupta/Library-Management-System" target="_blank" class="project-link">Explore Code →</a>
+            </article>
+
+            <article class="project-card tilt-card">
+              <div class="project-img-wrapper animated-3d">
+                <img src="https://cdn3d.iconscout.com/3d/premium/thumb/shopping-cart-6215845-5102320.png" alt="E-Commerce Shopping Cart">
+              </div>
+              <div class="project-badge">HTML + CSS + JS</div>
+              <h4>E-Commerce Shopping Cart</h4>
+              <p>
+                A fully functional shopping cart experience with dynamic product updates, persistent storage, and a sleek checkout flow.
+              </p>
+              <a href="https://github.com/anshika15gupta/E-Commerce-Shopping-Cart" target="_blank" class="project-link">Explore Code →</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="certifications">
+          <p class="eyebrow">Qualifications</p>
+          <h3>Academic & Industry Certificates</h3>
+          <div class="skill-grid">
+            <article class="skill-card tilt-card">
+              <div class="cert-icon">⚛️</div>
+              <h4>React Fundamental</h4>
+              <p>Board Infinity</p>
+            </article>
+            <article class="skill-card tilt-card">
+              <div class="cert-icon">📊</div>
+              <h4>Foundation: Data, Data, Everywhere</h4>
+              <p>Google</p>
+            </article>
+            <article class="skill-card tilt-card">
+              <div class="cert-icon">📝</div>
+              <h4>Work Smarter with MS Word</h4>
+              <p>Microsoft</p>
+            </article>
+            <article class="skill-card tilt-card">
+              <div class="cert-icon">🌐</div>
+              <h4>Intro to HTML, CSS & JS</h4>
+              <p>IBM</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="contact">
+          <p class="eyebrow">Connect</p>
+          <div class="contact-grid">
+            <div class="contact-copy">
+              <h3>Let's start a conversation</h3>
+              <p>
+                I'm always open to new opportunities, collaborations, or just a friendly chat about tech.
+              </p>
+              <div class="contact-info">
+                <div>
+                  <strong>Email</strong>
+                  <span><a href="mailto:anshikagupta071@outlook.com" style="color: inherit; text-decoration: none;">anshikagupta071@outlook.com</a></span>
+                </div>
+                <div>
+                  <strong>LinkedIn</strong>
+                  <span><a href="https://www.linkedin.com/in/anshika-gupta-a84659386" target="_blank" style="color: inherit; text-decoration: none;">Anshika Gupta</a></span>
+                </div>
+                <div>
+                  <strong>GitHub</strong>
+                  <span><a href="https://github.com/anshika15gupta" target="_blank" style="color: inherit; text-decoration: none;">anshika15gupta</a></span>
+                </div>
+                <div>
+                  <strong>Location</strong>
+                  <span>India</span>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form">
+              <label>
+                <span>Name</span>
+                <input type="text" placeholder="Your name" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" placeholder="you@mail.com" required />
+              </label>
+              <label>
+                <span>Message</span>
+                <textarea rows="5" placeholder="Let's build something together..."></textarea>
+              </label>
+              <button class="btn btn-primary" type="submit">Send message</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Built with ❤️ by Anshika Gupta</p>
+        <p>© 2026 Crafted for Excellence</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
